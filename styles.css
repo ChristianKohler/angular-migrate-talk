@@ -1,0 +1,68 @@
+body {
+  font-family: "Architects Daughter", cursive;
+}
+
+.year {
+  font-size: 10em;
+}
+
+.title {
+  font-size: 8em;
+}
+
+.withtitle {
+  width: 600px;
+}
+
+.widthimage img {
+  height: 600px;
+  width: auto;
+}
+
+.normaltext {
+  font-size: 2em;
+  text-align: center;
+}
+
+#img-guy {
+  height: 400px;
+  width: auto;
+}
+
+#img-conference {
+  height: 600px;
+  width: auto;
+}
+
+#img-paris {
+  height: 600px;
+  width: auto;
+  /* opacity: 0; */
+}
+
+/* .active #img-paris {
+  opacity: 1;
+} */
+
+#ng2intro {
+  opacity: 0;
+}
+#ng2intro.active {
+  opacity: 1;
+}
+
+#grave {
+  opacity: 0;
+}
+#grave img {
+  height: 600px;
+  width: auto;
+}
+#grave.active {
+  opacity: 1;
+}
+
+#reactions img {
+  height: 600px;
+  width: auto;
+}
