@@ -80,6 +80,17 @@ body {
   opacity: 1;
 } */
 
+#title-slide.active {
+  opacity: 1;
+}
+#title-slide {
+  opacity: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+}
+
 #hybrid-in-prod img {
   height: 300px;
   width: auto;
