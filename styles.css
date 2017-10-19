@@ -27,6 +27,21 @@ body {
   height: 300px;
 }
 
+.code-page {
+  top: 100px;
+  height: 600px;
+  display: flex;
+}
+
+.code-page img:first-child {
+  height: 400px;
+  margin-right: 100px;
+}
+
+.code-page img:last-child {
+  height: 400px;
+}
+
 .title {
   font-size: 8em;
 }
