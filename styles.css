@@ -44,6 +44,11 @@ body {
   opacity: 1;
 } */
 
+#hybrid-in-prod img {
+  height: 300px;
+  width: auto;
+}
+
 #ng2intro {
   opacity: 0;
 }
